@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: black;
+    background-color: darkslategray;
+    background-image: linear-gradient(90deg, darkslategray 0%, black 100%);
+    background-image: url('../images/20250122_audie-lake.avif');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    font-family: 'Droid Sans', sans-serif;
+    margin: 10px;
+}
+
+main {
+    text-align: center;
+}
+
+.navigation {
+    padding: 7px 0px;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
+.navigation li:hover {
+    background: yellow;
+    border: solid thin black;
+    color: black;
+}
+
+.navigation li {
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    background-color: hsla(192, 48%, 76%, 0.6); 
+    border: solid thin black;
+    border-radius: 20px;
+    width: fit-content;
+    height: fit-content;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.contactinfo {
+    text-align: center;
+    background-color: hsla(192, 48%, 76%, 0.6); 
+    border: solid thin black;
+    border-radius: 20px;
+    width: fit-content;
+    height: fit-content;
+    padding: 5px;
+    
+}
+
+.nobullets {
+    list-style-type: none;
+}
+/*recipe pages style*/
+
+.recipe-block {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    list-style-position: inside;
+    background-color: hsla(192, 48%, 76%, 0.6);
+    color: black;
+    width: fit-content;
+    height: auto;
+    border: solid thin black;
+    text-align: justify;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.recipe-title {
+    text-align: center;
+}
+
