@@ -74,7 +74,7 @@ main {
     list-style-position: inside;
     background-color: hsla(192, 48%, 76%, 0.6);
     color: black;
-    width: fit-content;
+    width: 800px;
     height: auto;
     border: solid thin black;
     text-align: justify;
@@ -86,3 +86,15 @@ main {
     text-align: center;
 }
 
+.recipe-links {
+    padding: 5px;
+    margin-bottom: 75px;
+    
+}
+
+.recipe-links button {
+    padding: 7px;
+    margin: 3px;
+    font-size: medium;
+    background-color: lightcyan;
+}
