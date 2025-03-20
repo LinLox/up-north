@@ -13,8 +13,8 @@
 
 body {
     color: black;
-    background-color: lightskyblue;
-    background-image: url('../images/20250122_audie-lake.avif');
+    background-color: rgb(218, 224, 228);
+    background-image: url("../images/20221217_101947.avif");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -23,7 +23,24 @@ body {
     margin: 10px auto;
 }
 
+header {
+    background-color: rgba(187, 199, 211, 0.6);
+    max-width: 800px;
+    color: black;
+    width: 75%;
+    margin: auto;
+}
+
 main {
+    background-color: rgba(187, 199, 211, 0.6);
+    max-width: 800px;
+    color: black;
+    width: 75%;
+    margin: auto;
+}
+
+footer {
+    background-color: rgba(187, 199, 211, 0.6);
     max-width: 800px;
     color: black;
     width: 75%;
@@ -113,6 +130,10 @@ h1 {
     transform: translateX(-50%);
     margin: 7px auto;
     opacity: 0.9;
+}
+
+ul {
+    list-style-position: inside;
 }
 
 .odinpup img {
