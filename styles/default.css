@@ -68,7 +68,7 @@ h1 {
     display: inline-block;
     position: relative;
     text-align: center;
-    background-color: hsla(192, 48%, 76%, 0.6); 
+    background-color: hsla(192, 48%, 76%, 0.7); 
     border: solid thin black;
     border-radius: 20px;
     width: fit-content;
@@ -79,7 +79,7 @@ h1 {
 
 .contactinfo {
     text-align: center;
-    background-color: hsla(192, 48%, 76%, 0.6); 
+    background-color: hsla(192, 48%, 76%, 0.7); 
     border: solid thin black;
     border-radius: 20px;
     width: fit-content;
@@ -112,15 +112,23 @@ h1 {
     text-align: center;
 }
 
-.recipe-links button {
+.recipe-link {
+    border: solid thin black;
     display: inline-block;
     position: relative;
     left: 50%;
     transform: translateX(-50%);
-    padding: 7px;
-    margin: 5px auto;
+    padding: 20px;
+    margin: 7px auto;
     font-size: medium;
-    background-color: lightcyan;
+    border-radius: 10px;
+    background-color: hsla(192, 48%, 76%, 0.7);
+    cursor: pointer;
+}
+
+.recipe-link:hover {
+    background-color: green;
+    color: aqua;
 }
 
 .system-specs {
@@ -154,11 +162,11 @@ ul {
     margin: 15px auto 50px;
     font-size: medium;
     border-radius: 10px;
-    background-color: hsl(209, 32%, 58%);
+    background-color: hsla(192, 48%, 76%, 0.7);
     cursor: pointer;
 }
 
 .reef-link:hover {
-    background-color: red;
+    background-color: green;
     color: aqua;
 }
