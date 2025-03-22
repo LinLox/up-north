@@ -12,7 +12,6 @@
 }
 
 body {
-    color: black;
     background-color: rgb(218, 224, 228);
     background-image: url("../images/20221217_101947.avif");
     background-size: cover;
@@ -25,9 +24,8 @@ body {
 
 header {
     background-color: rgba(187, 199, 211, 0.6);
-    max-width: 800px;
-    color: black;
-    width: 75%;
+    max-width: 625px;
+    /* width: 75%; */
     margin: auto;
 }
 
@@ -60,17 +58,13 @@ header {
 
 main {
     background-color: rgba(187, 199, 211, 0.6);
-    max-width: 800px;
-    color: black;
-    width: 75%;
+    max-width: 625px;
     margin: auto;
 }
 
 footer {
     background-color: rgba(187, 199, 211, 0.6);
-    max-width: 800px;
-    color: black;
-    width: 75%;
+    max-width: fit-content;
     margin: auto;
 }
 
@@ -84,7 +78,7 @@ h1 {
 /*recipe cards style*/
 
 .recipe-block {
-    max-width: 600px;
+    max-width: 625px;
     position: relative;
     left: 50%;
     transform: translateX(-50%);
