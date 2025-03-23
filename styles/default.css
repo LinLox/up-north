@@ -22,16 +22,11 @@ body {
     margin: 10px auto;
 }
 
-header {
-    background-color: rgba(187, 199, 211, 0.6);
-    max-width: 625px;
-    margin: auto;
-}
-
 .container-nav {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 15px;
     padding: 7px;
 }
 
@@ -53,15 +48,17 @@ header {
     color: black
 }
 
-main {
+.container-main {
     background-color: rgba(187, 199, 211, 0.6);
     max-width: 625px;
     margin: auto;
+    margin-bottom: 10px;
 }
 
 .container-contacts {
     display: flex;
     justify-content: center;
+    gap: 15px;
 }
 
 h1 {
@@ -71,7 +68,6 @@ h1 {
 .nobullets {
     list-style-type: none;
 }
-/*recipe cards style*/
 
 .recipe-block {
     max-width: 625px;
@@ -86,6 +82,7 @@ h1 {
     text-align: justify;
     border-radius: 20px;
     padding: 5px;
+    margin-bottom: 10px;
 }
 
 .recipe-title {
@@ -112,12 +109,10 @@ h1 {
 }
 
 .system-specs {
-    display: inline-block;
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-    margin: 7px auto;
-    opacity: 0.9;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
 }
 
 ul {
