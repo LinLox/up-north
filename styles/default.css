@@ -25,12 +25,10 @@ body {
 header {
     background-color: rgba(187, 199, 211, 0.6);
     max-width: 625px;
-    /* width: 75%; */
     margin: auto;
 }
 
 .container-nav {
-    /*border: thin dashed red; /*debug*/
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -38,7 +36,6 @@ header {
 }
 
 .page-nav {
-    /*border: thin dashed red; /*debug*/
     background-color: hsla(192, 48%, 76%, 0.7); 
     border: solid thin black;
     padding: 5px;
@@ -62,10 +59,9 @@ main {
     margin: auto;
 }
 
-footer {
-    background-color: rgba(187, 199, 211, 0.6);
-    max-width: fit-content;
-    margin: auto;
+.container-contacts {
+    display: flex;
+    justify-content: center;
 }
 
 h1 {
